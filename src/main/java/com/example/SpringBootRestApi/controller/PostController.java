@@ -60,7 +60,7 @@ public class PostController {
     return new ResponseEntity<>(message, HttpStatus.OK);
   }
 
-
+  // mysql://bd0b1cd4f8e43c:4bedc78a@us-cdbr-east-05.cleardb.net/heroku_8c98504a99b57be?reconnect=true
   @GetMapping("/search")
   public ResponseEntity<PostResponse> search(
       @RequestParam(value = "query", required = true) String query,
