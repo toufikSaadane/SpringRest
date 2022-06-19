@@ -1,0 +1,4 @@
+build:
+  stage: test
+  script:
+    - $MAVEN_HOME/bin/mvn test
